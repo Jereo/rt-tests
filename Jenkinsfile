@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh '''cd rt_test
+        sh '''cd rt-tests
 make'''
       }
     }
